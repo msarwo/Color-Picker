@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!--Import Google Icon Font-->
+
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="css/styles.scss.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/styles.scss" media="screen,projection"/>
 
 
     <!--Let browser know website is optimized for mobile-->
@@ -18,15 +20,29 @@
 
 
 <div class=" section white">
-    <div class=" row container">
-        <canvas class="center" id="myCanvas" width="1000" height="200">
+    <div id = "forCanvas" class=" row container">
+        <canvas class="center" id="myCanvas">
             Your browser does not support the HTML5 canvas tag.</canvas>
-        <script type="text/javascript" src = "js/color.js"></script>
+
+            <a class="btn-flat"><i class="material-icons navLeft jscolor {valueElement:null,value:'66ccff'}">navigation</i></a>
+
+            <span>
+                <a class="btn-flat"><i class="material-icons navRight jscolor {valueElement:null,value:'66ccff'}">navigation</i></a>
+
+            </span>
+
+
     </div>
+
+    <!--<p>You can add the color picker to a BUTTON:-->
+        <!--<button class="jscolor {value:'66ccff'}"></button>-->
 
 </div>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src = "js/color.js"></script>
+<script type="text/javascript" src="js/jscolor.js"></script>
+
 
 </body>
 </html>
