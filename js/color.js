@@ -6,7 +6,7 @@ var ctx = c.getContext("2d");
 fitToContainer(c);
 // Create gradient
 var grd = ctx.createLinearGradient(0,0,900,0);
-grd.addColorStop(0, calculateRgb('66ccff'));
+grd.addColorStop(0, calculateRgb('71f442'));
 // alert( calculateRgb('66ccff'));
 // grd.addColorStop(0.5,"rgb(0,255,0)")
 grd.addColorStop(1,"rgb(0,0,255)");
